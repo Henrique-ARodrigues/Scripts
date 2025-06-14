@@ -73,6 +73,8 @@ void viwer(commitments events[], int count){
                events[i].fday, events[i].fmonth, events[i].fyear,
                events[i].final_hour, events[i].final_minute);
     }
+    printf("\n--- Commitments ---\n");
+    printf("\n");
 }
 
 //Function to save appointments
