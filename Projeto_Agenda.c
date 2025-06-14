@@ -192,6 +192,7 @@ int main() {
         viwer(events, count);
         printf("Type (c) to create an appointment; (d) to delete an appointment; (r) to stop.\n");
         scanf(" %c", &set);
+        getchar();
 
         if(set == 'c') {
             create_appointment(events, &count);
